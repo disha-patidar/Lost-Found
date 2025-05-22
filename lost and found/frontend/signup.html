@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <form class="signup-box" onsubmit="return handleSignUp(event)">
+            <h2>Create Account</h2>
+            <p>Please fill your information below</p>
+
+           <!-- <div class="file-input-wrapper">
+    <input type="file" id="profile-picture" accept="image/*" required>
+    <label for="profile-picture" class="form-input file-label">
+        Upload Profile Picture *
+    </label>
+    <span id="file-name-display"></span>
+</div> -->
+
+
+            <!-- Full Name and Email -->
+<input type="text" class="form-input" placeholder="Full Name *" required>
+<input type="email" class="form-input" placeholder="Email *" required>
+
+<!-- Password Fields -->
+<div class="password-wrapper">
+    <input type="password" id="create-password" class="form-input" placeholder="Create Password *" required>
+    <span class="toggle-password" onclick="togglePassword('create-password', this)">
+        <img src="https://img.icons8.com/ios-glyphs/24/000000/closed-eye.png" />
+    </span>
+</div>
+
+<div class="password-wrapper">
+    <input type="password" id="confirm-password" class="form-input" placeholder="Confirm Password *" required>
+    <span class="toggle-password" onclick="togglePassword('confirm-password', this)">
+        <img src="https://img.icons8.com/ios-glyphs/24/000000/closed-eye.png" />
+    </span>
+</div>
+
+
+
+
+
+            <button type="submit" class="signup-btn">Sign Up</button>
+
+            <div class="login-redirect">
+                Already have an account? <a href="#">Login</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
