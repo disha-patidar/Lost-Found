@@ -1,1 +1,1 @@
-# Lost-Found
+The Lost and Found project is a digital platform designed to help individuals report and recover lost or found items efficiently. The system serves as a centralized database where users can post details about items they have lost or found, making it easier to match lost items with their rightful owners
